@@ -1,0 +1,6 @@
+{
+  "name": "SIMTU SMPN 2 Kutasari",
+  "description": "Sistem Informasi Manajemen Tata Usaha SMP Negeri 2 Kutasari, Kabupaten Purbalingga, Jawa Tengah",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

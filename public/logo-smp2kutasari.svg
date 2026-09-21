@@ -1,0 +1,85 @@
+<svg viewBox="0 0 500 550" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path id="text-path-top" d="M 68 215 A 195 195 0 0 1 432 215" fill="none"/>
+    <linearGradient id="torchFlame" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stopColor="#C81E1E" />
+      <stop offset="60%" stopColor="#E52521" />
+      <stop offset="100%" stopColor="#FF5722" />
+    </linearGradient>
+    <linearGradient id="blueWingGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#1C5FB0" />
+      <stop offset="100%" stopColor="#2563EB" />
+    </linearGradient>
+  </defs>
+
+  <path d="M 250 8 C 285 20, 360 25, 460 145 C 510 230, 485 365, 410 460 C 340 540, 290 545, 250 515 C 210 545, 160 540, 90 460 C 15 365, -10 230, 40 145 C 140 25, 215 20, 250 8 Z" fill="#FFEB00" stroke="#1E1E1E" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M 250 20 C 282 30, 350 35, 445 150 C 490 230, 470 355, 400 445 C 335 520, 285 528, 250 500 C 215 528, 165 520, 100 445 C 30 355, 10 230, 55 150 C 150 35, 218 30, 250 20 Z" fill="none" stroke="#1E1E1E" stroke-width="2.5"/>
+
+  <text fill="#111827" font-size="34" font-weight="900" letter-spacing="3" font-family="sans-serif">
+    <textPath href="#text-path-top" startOffset="50%" text-anchor="middle">
+      SMP NEGERI 2 KUTASARI
+    </textPath>
+  </text>
+
+  <polygon points="250,120 257,144 282,144 262,159 269,183 250,168 231,183 238,159 218,144 243,144" fill="#FFFFFF" stroke="#111827" stroke-width="3" stroke-linejoin="round"/>
+
+  <path d="M 235 340 C 215 320, 160 300, 130 215 C 120 185, 140 205, 150 235 C 145 255, 125 285, 155 305 C 130 315, 150 335, 175 330 C 155 342, 170 355, 195 345 C 180 358, 205 365, 235 350 Z" fill="url(#blueWingGrad)" stroke="#111827" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M 265 340 C 285 320, 340 300, 370 215 C 380 185, 360 205, 350 235 C 355 255, 375 285, 345 305 C 370 315, 350 335, 325 330 C 345 342, 330 355, 305 345 C 320 358, 295 365, 265 350 Z" fill="url(#blueWingGrad)" stroke="#111827" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <path d="M 250 220 C 220 240, 195 285, 215 355 C 230 380, 270 380, 285 355 C 305 285, 280 240, 250 220 Z" fill="#FFFFFF" stroke="#111827" stroke-width="3" stroke-linejoin="round"/>
+
+  <path d="M 250 162 C 260 178, 265 195, 258 208 C 255 215, 245 215, 242 208 C 235 195, 240 178, 250 162 Z" fill="url(#torchFlame)" stroke="#111827" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 250 172 C 254 182, 258 195, 252 202 C 248 205, 244 200, 246 190 Z" fill="#FFF200"/>
+
+  <path d="M 244 208 L 256 208 L 254 320 L 246 320 Z" fill="#262626" stroke="#111827" stroke-width="2"/>
+  <rect x="242" y="318" width="16" height="8" rx="2" fill="#EAB308" stroke="#111827" stroke-width="2" />
+  <polygon points="250,345 244,326 256,326" fill="#FACC15" stroke="#111827" stroke-width="2"/>
+  <line x1="250" y1="326" x2="250" y2="340" stroke="#111827" stroke-width="2"/>
+
+  <g stroke="#111827" stroke-width="3.5" stroke-linejoin="round">
+    <path d="M 250 375 C 210 350, 160 365, 135 390 L 142 410 C 165 385, 215 370, 250 392 Z" fill="#FFFFFF"/>
+    <path d="M 250 375 C 290 350, 340 365, 365 390 L 358 410 C 335 385, 285 370, 250 392 Z" fill="#FFFFFF"/>
+  </g>
+
+  <g fill="#16A34A" stroke="#111827" stroke-width="2">
+    <ellipse cx="100" cy="220" rx="9" ry="14" transform="rotate(-30 100 220)" />
+    <ellipse cx="90" cy="245" rx="9" ry="14" transform="rotate(-25 90 245)" />
+    <ellipse cx="85" cy="272" rx="9" ry="14" transform="rotate(-15 85 272)" />
+    <ellipse cx="85" cy="300" rx="9" ry="14" transform="rotate(-5 85 300)" />
+    <ellipse cx="90" cy="328" rx="9" ry="14" transform="rotate(10 90 328)" />
+    <ellipse cx="102" cy="355" rx="9" ry="14" transform="rotate(25 102 355)" />
+    <ellipse cx="120" cy="380" rx="9" ry="14" transform="rotate(40 120 380)" />
+    <ellipse cx="145" cy="405" rx="9" ry="14" transform="rotate(55 145 405)" />
+    <ellipse cx="112" cy="235" rx="7" ry="12" transform="rotate(-10 112 235)" />
+    <ellipse cx="104" cy="262" rx="7" ry="12" transform="rotate(0 104 262)" />
+    <ellipse cx="104" cy="290" rx="7" ry="12" transform="rotate(10 104 290)" />
+    <ellipse cx="110" cy="318" rx="7" ry="12" transform="rotate(20 110 318)" />
+    <ellipse cx="122" cy="344" rx="7" ry="12" transform="rotate(35 122 344)" />
+  </g>
+
+  <g stroke="#111827" stroke-width="2">
+    <circle cx="400" cy="225" r="10" fill="#FFFFFF" />
+    <path d="M 395 233 Q 400 238 405 233 Q 400 228 395 233 Z" fill="#15803D" />
+    <circle cx="412" cy="252" r="11" fill="#FFFFFF" />
+    <path d="M 406 260 Q 412 266 418 260 Q 412 255 406 260 Z" fill="#15803D" />
+    <circle cx="417" cy="282" r="11" fill="#FFFFFF" />
+    <path d="M 411 291 Q 417 297 423 291 Q 417 285 411 291 Z" fill="#15803D" />
+    <circle cx="414" cy="312" r="11" fill="#FFFFFF" />
+    <path d="M 408 321 Q 414 327 420 321 Q 414 315 408 321 Z" fill="#15803D" />
+    <circle cx="402" cy="342" r="11" fill="#FFFFFF" />
+    <path d="M 396 350 Q 402 356 408 350 Q 402 344 396 350 Z" fill="#15803D" />
+    <circle cx="382" cy="370" r="12" fill="#FFFFFF" />
+    <path d="M 375 378 Q 382 385 389 378 Q 382 372 375 378 Z" fill="#15803D" />
+    <circle cx="355" cy="396" r="12" fill="#FFFFFF" />
+    <path d="M 347 403 Q 355 411 362 403 Q 355 397 347 403 Z" fill="#15803D" />
+  </g>
+
+  <g>
+    <polygon points="120,448 100,410 135,420" fill="#E5E7EB" stroke="#111827" stroke-width="2.5" />
+    <polygon points="380,448 400,410 365,420" fill="#E5E7EB" stroke="#111827" stroke-width="2.5" />
+    <path d="M 115 435 Q 250 455 385 435 L 375 480 Q 250 500 125 480 Z" fill="#FFFFFF" stroke="#111827" stroke-width="3.5" stroke-linejoin="round"/>
+    <text x="250" y="472" text-anchor="middle" fill="#111827" font-size="32" font-weight="900" letter-spacing="4" font-family="sans-serif">
+      PURBALINGGA
+    </text>
+  </g>
+</svg>
